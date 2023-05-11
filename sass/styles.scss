@@ -26,18 +26,36 @@ h2 {
   font-size: small;
 }
 
-.box {
-  position: relative;
-  margin-left: 10%;
+.reviews {
+  text-align: center;
+  font-size: small;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.box:before {
-  position: absolute;
-  left: -20px;
-  height: 20px;
-  width: 20px;
-  margin-bottom: 15px;
-  border: 1px solid black;
+
+.reviews_review {
+  border-radius: 15%;
+  display: inline-block;
+  margin-bottom: 4%;
 }
-.box.reviews:before {
-  background-color: red;
+
+.reviews_report-guru {
+  border-radius: 15%;
+  display: inline-block;
+  margin-bottom: 4%;
+}
+
+.reviews_besttech {
+  border-radius: 15%;
+  display: inline-block;
+  margin-bottom: 4%;
+}
+
+.profiles {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
