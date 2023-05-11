@@ -6,7 +6,8 @@ html,
 body {
   height: 100%;
   margin: 0%;
-  background-image: url(/images/bg-pattern-bottom-desktop.svg);
+  background-image: url(/images/bg-pattern-bottom-mobile.svg);
+  background-image: url(/images/bg-pattern-top-mobile.svg);
   font-family: "League Spartan", sans-serif;
 }
 
@@ -66,6 +67,8 @@ h2 {
 
 p {
   padding-bottom: 4%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .profiles_colton {
