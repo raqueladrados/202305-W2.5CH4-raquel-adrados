@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0%;
+  background-image: url(/images/bg-pattern-bottom-desktop.svg);
+  font-family: "League Spartan", sans-serif;
+}
+
+main {
+  padding-bottom: 10%;
+}
+
+.titles {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h1 {
+  font-size: xx-large;
+  color: #501e4f;
+}
+
+h2 {
+  color: #917d8c;
+  font-size: small;
+}
+
+.reviews {
+  text-align: center;
+  font-size: small;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews_review {
+  border-radius: 15%;
+  display: inline-block;
+  margin-bottom: 4%;
+}
+
+.reviews_report-guru {
+  border-radius: 15%;
+  display: inline-block;
+  margin-bottom: 4%;
+}
+
+.reviews_besttech {
+  border-radius: 15%;
+  display: inline-block;
+  margin-bottom: 4%;
+}
+
+.profiles {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+p {
+  padding-bottom: 4%;
+}
+
+.profiles_colton {
+  border-radius: 5%;
+}
+
+h3 {
+  font-size: smaller;
+}
+
+h4 {
+  color: #d371ab;
+  font-size: smaller;
+}
+
+.profiles_irene {
+  border-radius: 5%;
+}
+
+.profiles_anne {
+  border-radius: 5%;
+}
+
+.colton_profiles_colton_photo {
+  border-radius: 20%;
+  margin-top: 4%;
+  max-width: 50%;
+  max-height: 40%;
+  margin-left: 10%;
+}
+
+.profiles_colton_titles {
+  margin-top: 10%;
+  margin-left: 4%;
+}
+
+.colton {
+  display: flex;
+}
+
+.irene {
+  display: flex;
+}
+
+.profiles_irene_titles {
+  margin-top: 10%;
+  margin-left: 4%;
+}
+
+.irene_profiles_irene_photo {
+  border-radius: 20%;
+  margin-top: 4%;
+  max-width: 50%;
+  max-height: 40%;
+  margin-left: 10%;
+}
+
+.anne {
+  display: flex;
+}
+
+.anne_profiles_anne_photo {
+  border-radius: 20%;
+  margin-top: 4%;
+  max-width: 50%;
+  max-height: 40%;
+  margin-left: 10%;
+}
+
+.profiles_anne_titles {
+  margin-top: 10%;
+  margin-left: 4%;
+}
+
+/*# sourceMappingURL=styles.css.map */
